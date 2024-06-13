@@ -1,0 +1,38 @@
+.HomePage {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.FilterControls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button, .select {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.select {
+  padding: 10px 15px;
+}
+
+.DogList, .Pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

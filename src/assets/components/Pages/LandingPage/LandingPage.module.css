@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("../../../../resources/fonts/Pacifico-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("/src/resources/imgs/dogBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Pacifico", sans-serif;
+  margin-top: 13%;
+  font-size: 9em;
+  color: black;
+}
+
+.button {
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  width: 10em;
+  height: 3em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.2s;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.button:hover {
+  background-color: #fb8c00;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

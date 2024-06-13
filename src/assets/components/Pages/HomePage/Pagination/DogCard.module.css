@@ -1,0 +1,38 @@
+.DogCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.DogCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.DogCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.DogCard p {
+  margin: 5px 0;
+  text-align: center;
+  color: #333;
+}
+
+.DogCard p:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  color: #f57c00;
+}

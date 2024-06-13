@@ -1,0 +1,51 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  max-width: 600px; 
+  margin: 40px auto; 
+}
+
+.backButton {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navLink{
+  text-decoration: none;
+}
+
+.backButton:hover {
+  background-color: #e65100;
+}
+
+.dogImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.detailsContainer p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.detailsContainer h2 {
+  color: #f57c00;
+  margin-bottom: 20px;
+}
